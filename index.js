@@ -69,7 +69,7 @@ Fs.readdir('./commands', (err, files) => {
 
 // Ready Event
 Client.on('ready', () => {
-  const randomStatus = ['🤡 feito por @paamosa e @yeaimunivb 🤡', 'https://twitter.com/SpaceX/status/1347258678940897280', 'uzun ömürlü türkiye, eu sou turco e uso o tradutor :(', 'viva a russia também ', 'grande turquia', 'HOJE DIA 10/08/2021 É MEU ANIVERSÁRIO, PARABÉNS PRA MIM!', 'hoje é meu aniversário parabens pra mim', `prefix: ${config.prefix}`]
+  const randomStatus = ['🤡 feito por @paamosa e @yeaimunivb 🤡', 'https://twitter.com/SpaceX/status/1347258678940897280', 'uzun ömürlü türkiye, eu sou turco e uso o tradutor :(', 'viva a russia também ', 'grande turquia', `prefix: ${config.prefix}`]
   const segundos = 7
 
   setInterval(() => {
