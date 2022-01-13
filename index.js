@@ -13,7 +13,7 @@ const Fs = require('fs')
 const CooldownHandler = require('./util/CooldownHandler.js')
 
 const config = require('./config.json')
-const token = 'NzQyNDI4NTY0ODg4MjIzODA1.XzF-ew.NYgSY797G6y4bFD3nK5Vi8nPDzI'
+const token = 'NzQyNDI4NTY0ODg4MjIzODA1.XzF-ew._TpxwAEd-_4Fb4s7XZ8xJy8HK9g'
 
 // Consts
 const Client = new Discord.Client()
